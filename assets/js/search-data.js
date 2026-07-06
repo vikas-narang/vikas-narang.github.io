@@ -454,16 +454,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "publications-investigations-on-the-theory-of-the-brownian-movement",
-          title: 'Investigations on the Theory of the Brownian Movement',
+            },},{id: "publications-deep-q-learning-for-plug-in-hybrid-energy-management",
+          title: 'Deep Q-learning for Plug-in Hybrid Energy Management',
           description: "",
           section: "Publications",handler: () => {
-              window.location.href = "/publications/brownian-movement/";
-            },},{id: "publications-relativity-the-special-and-general-theory",
-          title: 'Relativity: The Special and General Theory',
+              window.location.href = "/publications/deep-q-learning-plug-in-hybrid-energy-management/";
+            },},{id: "publications-deep-reinforcement-learning-for-air-handling-control",
+          title: 'Deep Reinforcement Learning for Air Handling Control',
           description: "",
           section: "Publications",handler: () => {
-              window.location.href = "/publications/relativity/";
+              window.location.href = "/publications/deep-reinforcement-learning-air-handling-control/";
+            },},{id: "publications-deep-reinforcement-learning-for-fuel-system-referencing",
+          title: 'Deep Reinforcement Learning for Fuel System Referencing',
+          description: "",
+          section: "Publications",handler: () => {
+              window.location.href = "/publications/deep-reinforcement-learning-fuel-system-referencing/";
+            },},{id: "publications-lpg-direct-injection-for-medium-duty-trucks",
+          title: 'LPG Direct Injection for Medium Duty Trucks',
+          description: "",
+          section: "Publications",handler: () => {
+              window.location.href = "/publications/lpg-direct-injection-medium-duty-trucks/";
+            },},{id: "publications-optimized-diagnostics-using-vehicle-data",
+          title: 'Optimized Diagnostics Using Vehicle Data',
+          description: "",
+          section: "Publications",handler: () => {
+              window.location.href = "/publications/optimized-diagnostics-using-vehicle-data/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
