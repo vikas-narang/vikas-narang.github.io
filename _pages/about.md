@@ -6,7 +6,7 @@ subtitle: Research Associate, Dynamics, Systems and Controls Lab, Arizona State 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Arizona State University</p>
