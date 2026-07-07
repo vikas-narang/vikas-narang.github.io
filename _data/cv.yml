@@ -1,63 +1,37 @@
 cv:
   name: Vikas Narang
-  label: Research Associate
+  headline: Research Associate
   email: vnarang2@asu.edu
-  phone: ""
-  location: "Tempe, AZ, USA"
-  image: ""
-  summary: >
-    Research Associate and PhD candidate focused on agriculture robotics,focusing on navigation and controls in unstructured enviornment .
-
-  social_networks: []
-
-  address:
-    street: ""
-    city: ""
-    region: ""
-    postalCode: ""
-    countryCode: ""
+  phone: "+18127642928"
 
   sections:
+    Summary:
+      - bullet: Research Associate and PhD candidate focused on teleoperation and motion control for autonomous vehicles, with emphasis on predictive perception, communication latency, and connected vehicle systems.
+
     Education:
       - institution: Arizona State University
-        location: "Tempe, AZ, USA"
         area: Systems Engineering
-        studyType: PhD
-        start_date: ""
-        end_date: 2027
-        courses:
-          - Robotics Systems I
-          - Robotics Systems II
-          - Mobile Robotics
-          - Optimization and Controls
-          - Modern Controls
-          - Reinforcement Learning
-          - Digital Signal Processing
-          - Digital Controls
-          - Engineering Mathematics
-          - Probability and Stochastic Processes
-          - Vehicle Dynamics and Controls
+        degree: PhD
+        date: Expected Dec 2027
+        highlights:
+          - "Relevant courses: Robotics Systems I, Robotics Systems II, Mobile Robotics, Optimization and Controls, Modern Controls, Reinforcement Learning, Digital Signal Processing, Digital Controls, Engineering Mathematics, Probability and Stochastic Processes, and Vehicle Dynamics and Controls."
 
       - institution: Michigan Technological University
-        location: MI, USA
         area: Mechanical Engineering
-        studyType: M.S.
-        start_date: ""
-        end_date: 2012
+        degree: M.S.
+        location: MI, USA
+        date: 2012
 
       - institution: M.D. University
-        location: Rohtak, India
         area: Mechanical Engineering
-        studyType: B.S.
-        start_date: ""
-        end_date: 2006
+        degree: B.S.
+        location: Rohtak, India
+        date: 2006
 
     Experience:
       - company: Arizona State University
         position: Research Associate, Dynamics, Systems and Controls Lab
-        location: ""
-        start_date: 2024
-        end_date: 2025
+        date: 2024-2025
         highlights:
           - Conducting research on teleoperation and motion control for autonomous vehicles using GPS, camera, onboard sensing, and drive-by-wire platforms.
           - Designing and evaluating control strategies with predictive perception for lateral and longitudinal vehicle operation in remote driving environments.
@@ -66,9 +40,7 @@ cv:
 
       - company: Cummins Inc
         position: Sr. Technical Specialist, Simulation, Controls and Analytics
-        location: ""
-        start_date: 2021
-        end_date: 2024
+        date: 2021-2024
         highlights:
           - Led development of ML-based solutions for hybrid and conventional powertrain systems, including diagnostic algorithms, resulting in $14M estimated combined operational and fuel savings.
           - Coordinated PoC projects across analytics and controls teams to reduce downtime by 15%.
@@ -77,9 +49,7 @@ cv:
 
       - company: Cummins Inc
         position: Technical Specialist, Advanced Dynamic Systems & Controls
-        location: ""
-        start_date: 2016
-        end_date: 2020
+        date: 2016-2020
         highlights:
           - Led controls development and validation for spark-ignited engines, including natural gas and propane platforms, supporting combustion stability, fuel control, air-path management, and system robustness.
           - Lead calibration development using GT-Power simulations, test-cell data, and vehicle testing to validate air-path and fuel-system control algorithms, improving torque response, combustion stability, transient performance, and drivability.
@@ -88,9 +58,7 @@ cv:
 
       - company: Cummins Inc
         position: System Performance & Integration Engineer, Advanced Systems Integration
-        location: ""
-        start_date: 2012
-        end_date: 2016
+        date: 2012-2016
         highlights:
           - Planned and executed performance testing for diesel and spark-ignited engines in test-cell and vehicle environments.
           - Performed combustion, performance, and emissions analysis to support engine calibration, fuel economy improvement, aftertreatment integration, and product readiness for on-highway natural gas powertrain programs.
@@ -99,53 +67,22 @@ cv:
           - Led vehicle road-trip and field validation activities for Cummins diesel and natural gas engine platforms, supporting data collection, issue resolution, calibration feedback, and real-world performance evaluation.
           - Defined and managed vehicle and system-level requirements by working closely with controls, calibration, applications, test, and product engineering teams.
 
+    Patents:
+      - bullet: US Patent 11,002,202 - Deep Reinforcement Learning for air handling control.
+      - bullet: US Patent 10,746,123 - Deep Reinforcement Learning for fuel system referencing.
+      - bullet: US20240326838A1 / EP4408718A1 / WO2023056007A1 - Optimized diagnostics using vehicle data.
+
     Publications:
-      - title: Deep Reinforcement Learning for Air Handling Control
-        publisher: Patent
-        releaseDate: 2021
-        summary: US Patent 11,002,202.
+      - bullet: SAE (2019) - LPG Direct Injection for Medium Duty Trucks.
+      - bullet: ASME (2024) - Deep Q-learning for Plug-in Hybrid Energy Management.
 
-      - title: Deep Reinforcement Learning for Fuel System Referencing
-        publisher: Patent
-        releaseDate: 2020
-        summary: US Patent 10,746,123.
+    Technical Skills:
+      - label: Tools
+        details: MATLAB, Simulink, Python, CarSim, GT-Power, Azure Databricks, Git, ROS 2
 
-      - title: Optimized Diagnostics Using Vehicle Data
-        publisher: Patent Application
-        releaseDate: 2024
-        summary: US20240326838A1 / EP4408718A1 / WO2023056007A1.
-
-      - title: LPG Direct Injection for Medium Duty Trucks
-        publisher: SAE
-        releaseDate: 2019
-        summary: ""
-
-      - title: Deep Q-learning for Plug-in Hybrid Energy Management
-        publisher: ASME
-        releaseDate: 2024
-        summary: ""
-
-    Skills:
-      - name: Tools
-        level: ""
-        keywords:
-          - MATLAB
-          - Simulink
-          - Python
-          - CarSim
-          - GT-Power
-          - Azure Databricks
-          - Git
-          - ROS 2
-
-    Certificates:
-      - name: ADAS
-        issuer: ""
-        date: ""
-
-      - name: Intro to Self-Driving Cars
-        issuer: ""
-        date: ""
+    Certifications:
+      - bullet: ADAS
+      - bullet: Intro to Self-Driving Cars
 
     Professional Service:
       - bullet: "SAE: WCX Co-Chair; Reviewer - Vehicle Dynamics, Safety, Emissions."

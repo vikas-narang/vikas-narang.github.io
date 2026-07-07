@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Arizona State University | </p>
-    <p>EcoRobotics Lab | </p>
     <p>vnarang2@asu.edu </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
