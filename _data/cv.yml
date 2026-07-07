@@ -6,7 +6,7 @@ cv:
 
   sections:
     Summary:
-      - bullet: Research Associate and PhD candidate focused on teleoperation and motion control for autonomous vehicles, with emphasis on predictive perception, communication latency, and connected vehicle systems.
+      - bullet: Research Associate and PhD candidate focused on agriculture robotics, with emphasis on navigation and controls in unstructured enviornemnt.
 
     Education:
       - institution: Arizona State University
@@ -84,7 +84,7 @@ cv:
       - bullet: ADAS
       - bullet: Intro to Self-Driving Cars
 
-    Professional Service:
+    Organizations:
       - bullet: "SAE: WCX Co-Chair; Reviewer - Vehicle Dynamics, Safety, Emissions."
       - bullet: "ASME: Reviewer - Dynamic Systems, Autonomous Vehicles, Energy Systems."
       - bullet: "IEEE: Reviewer - Dynamic Systems and Controls."
