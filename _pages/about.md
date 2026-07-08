@@ -30,8 +30,6 @@ Vikas Narang is a PhD candidate in Systems Engineering at Arizona State
 University and a Research Associate in the EcoRobotics Lab.
 His current research focuses on agriculture robotics, with emphasis on navigation and controls in unstructured enviornemnt.
 
-Before joining ASU, he spent more than a decade at Cummins in systems
-integration, controls, simulation, and analytics roles in R & T department. His work has spanned powertrain controls, machine learning, calibration, and validation across
-conventional, hybrid, diesel, natural gas, and propane platforms. His broader
-interests sit at the intersection of controls, autonomy, and data-driven
-engineering.
+Before joining ASU, he spent more than a decade in industry focusing on systems integration, controls, simulation, and analytics roles within Research & Technology. His work has spanned powertrain controls, machine learning, calibration, and validation across conventional and hybrid platforms. 
+
+His broader interests sit at the intersection of controls, autonomy, and data-driven engineering, with a core focus on developing safe and sustainable robotic systems
