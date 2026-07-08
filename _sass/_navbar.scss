@@ -5,10 +5,15 @@
 @use "variables" as v;
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 10px 30px rgba(16, 39, 42, 0.08);
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.97;
+  margin: 0.75rem auto 0;
+  width: min(calc(100% - 1.5rem), 1100px);
+  border-radius: 999px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .navbar .dropdown-menu,
@@ -175,6 +180,14 @@
 @media (min-width: 576px) {
   #light-toggle {
     transform: translateY(4px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    width: calc(100% - 1rem);
+    margin-top: 0.5rem;
+    border-radius: 1.25rem;
   }
 }
 
