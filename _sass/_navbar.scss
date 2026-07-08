@@ -8,7 +8,11 @@
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.98;
+
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .navbar .dropdown-menu,
@@ -57,10 +61,19 @@
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 0.92rem;
+    letter-spacing: 0.01em;
+    margin-left: 1.75rem;
+    padding: 1.15rem 0;
+    position: relative;
 
     &:hover {
       color: var(--global-hover-color);
@@ -69,11 +82,21 @@
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+    font-weight: 500;
+    color: var(--global-text-color);
 
     &:hover {
       color: var(--global-hover-color);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background-color: var(--global-theme-color);
     }
   }
 
@@ -169,6 +192,20 @@
 
   &:hover {
     color: var(--global-hover-color);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar.navbar-light {
+    .navbar-brand {
+      font-size: 1.6rem;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      margin-left: 0;
+      padding: 0.65rem 0;
+      display: inline-block;
+    }
   }
 }
 
