@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research Associate, EcoRobotics Lab, Arizona State University
 
