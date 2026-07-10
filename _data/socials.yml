@@ -3,6 +3,12 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /cv/ # link the CV icon to the CV page
 email: vnarang2@asu.edu # your email address
+outlook:
+  logo: /assets/img/outlook.svg
+  title: Outlook
+  url: https://outlook.office.com/mail/deeplink/compose?to=vnarang2%40asu.edu
+linkedin_username: vikas-n-ba21aa11
+github_username: your-github-username
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: oZBC_mQAAAAJ&hl # your Google Scholar ID
