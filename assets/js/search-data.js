@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-peer-review",
+          title: "Peer Review",
+          description: "Journals and conferences for peer-review activity.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/peer-review/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
