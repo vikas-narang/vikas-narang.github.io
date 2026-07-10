@@ -4,7 +4,7 @@
 cv_pdf: /cv/ # link the CV icon to the CV page
 email: vnarang2@asu.edu # your email address
 outlook:
-  logo: /assets/img/outlook.svg
+  logo: https://cdn.simpleicons.org/microsoftoutlook/0A64D6
   title: Outlook
   url: https://outlook.office.com/mail/deeplink/compose?to=vnarang2%40asu.edu
 linkedin_username: vikas-n-ba21aa11
