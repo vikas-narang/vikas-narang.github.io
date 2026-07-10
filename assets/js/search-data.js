@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/peer-review/";
+          },
+        },{id: "nav-community-involvement",
+          title: "Community Involvement",
+          description: "Outreach, volunteering, and community engagement activities.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/community-involvement/";
           },
         },{id: "nav-cv",
           title: "CV",
