@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Outlook">
+  <rect width="64" height="64" rx="10" fill="#0a64d6"/>
+  <path d="M22 18h20a4 4 0 0 1 4 4v20a4 4 0 0 1-4 4H22z" fill="#1b7bf0"/>
+  <path d="M24 24h18v16H24z" fill="#fff" opacity=".18"/>
+  <path d="M14 20h22v24H14z" fill="#185abd"/>
+  <path d="M25 32c0 5.2-2.8 8.4-7.2 8.4S10.6 37.2 10.6 32s2.8-8.4 7.2-8.4S25 26.8 25 32zm-10.1 0c0 3.2 1.1 5.2 2.9 5.2s2.9-2 2.9-5.2-1.1-5.2-2.9-5.2-2.9 2-2.9 5.2z" fill="#fff"/>
+  <path d="M36 26l9 6-9 6z" fill="#fff" opacity=".9"/>
+</svg>

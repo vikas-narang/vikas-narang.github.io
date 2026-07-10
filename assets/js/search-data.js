@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/community-involvement/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-",
+          title: "",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -516,6 +516,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%76%6E%61%72%61%6E%67%32@%61%73%75.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-outlook',
+        title: 'Outlook',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://outlook.office.com/mail/deeplink/compose?to=vnarang2%40asu.edu", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/vikas-n-ba21aa11", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/your-github-username", "_blank");
         },
       },{
         id: 'social-scholar',
