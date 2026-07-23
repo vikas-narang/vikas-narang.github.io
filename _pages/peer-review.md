@@ -14,7 +14,13 @@ rather than individual manuscript titles.
 
 ## Journals
 
-- Add journal names here
+- Automotive Innovation (Springer)
+- IEEE Transactions on Automation Science and Engineering
+- Journal of Autonomous Vehicles and Systems
+- Journal of Computing and Information Science in Engineering
+- Journal of Connected and Automated Vehicles
+- Journal of Dynamic Systems, Measurement and Control
+- Journal of Engineering for Sustainable Buildings and Cities
 
 ## Conferences
 
